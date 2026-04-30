@@ -22,6 +22,20 @@ Developed a multi-stage attack detection system using Splunk to identify brute f
 
 ---
 
+## MITRE ATT&CK Mapping
+
+The attack stages identified in this project are mapped as follows:
+
+- Brute Force Attack → T1110  
+- Successful Login (Valid Accounts) → T1078  
+- PowerShell Execution → T1059  
+- User Creation → T1136  
+- Privilege Escalation (Account Manipulation) → T1098  
+- Persistence (Scheduled Task) → T1053
+  
+---
+
+
 ## Log Analysis and Threat Detection
 This project focuses on analyzing Windows security logs to detect and correlate multiple stages of an attack. By monitoring specific Event IDs and patterns, suspicious activities such as repeated failed logins, unauthorized access, privilege escalation, and persistence mechanisms can be identified.
 
